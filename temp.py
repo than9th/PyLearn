@@ -4,10 +4,11 @@ Spyder Editor
 
 This is a temporary script file.
 """
+import os
+import requests
 
+print(os.getcwd())
 
-print "is it true that 3.1415*2:", 3.1415*2
-print(3.1415**2)
-
-import sys
-reload(sys)
+bd = requests.get("http://www.baidu.com")
+print(bd.url)
+print(bd.encoding)
