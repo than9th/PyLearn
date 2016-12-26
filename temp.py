@@ -12,3 +12,8 @@ print(os.getcwd())
 bd = requests.get("http://www.baidu.com")
 print(bd.url)
 print(bd.encoding)
+
+print(bd.url +" "+ bd.encoding)
+
+print("您好")
+
